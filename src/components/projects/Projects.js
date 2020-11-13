@@ -128,7 +128,7 @@ export const Projects = () => {
           netlifyURL="https://hippo-clothing.netlify.app/"
           githubURL="https://github.com/annatakman/Final-Project-Frontend"
           title="WEB SHOP"
-          subTitle="SITE."
+          /* subTitle="SITE." */
           description=" Fullstack project. Final project I did during the Technigo boot camp. 
           We worked in a team of three people and together we built a mock web shop where you can shop used 
           clothing and also sign up and sell your own used clothing online. "
@@ -138,7 +138,7 @@ export const Projects = () => {
           netlifyURL="https://kajsa-happythought.netlify.app/"
           githubURL="https://github.com/kajsabootin/project-happy-thoughts-api"
           title="HAPPY THOUGHTS"
-          subTitle="APP."
+          /* subTitle="APP." */
           description=" Fullstack project. I built a mini version of Twitter, but with less negativity. (Just love). "
           listOfTags={thoughtsList}
         />
@@ -146,7 +146,7 @@ export const Projects = () => {
           netlifyURL="https://quiz-hippos.netlify.app/"
           githubURL="https://github.com/kajsabootin/project-redux-quiz-hippos"
           title="FOOD QUIZ"
-          subTitle="SITE."
+          /* subTitle="SITE." */
           description=" A team project in the Technigo Bootcampt and the task was to build a quiz game using Redux."
           listOfTags={reduxquizList}
         />
@@ -154,7 +154,7 @@ export const Projects = () => {
           netlifyURL="https://kajsabootin-muisc.netlify.app/"
           githubURL="https://github.com/kajsabootin/project-music-releases"
           title="POPULAR MUSIC"
-          subTitle="SITE."
+          /* subTitle="SITE." */
           description=" Music site built with React, using API to fetch data - Pair programming project."
           listOfTags={musicList}
         />
@@ -187,10 +187,10 @@ const Title = styled.h3`
   width: fit-content;
   margin: 0 auto 20px;
   padding: 2px 6px;
-  color: #fff;
-  background: #ff4f70;
+  color: #ff4f70;
+  
   @media (min-width: 1024px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;
 

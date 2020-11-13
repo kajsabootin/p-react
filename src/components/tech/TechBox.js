@@ -33,7 +33,7 @@ const Emoji = styled.span.attrs(({ ariaLabel }) => ({
   opacity: 0.8;
 `;
 const Span = styled.span`
-  font-weight: 600;
+font-size: 20px;
 `;
 
 const TechContainer = styled.section`

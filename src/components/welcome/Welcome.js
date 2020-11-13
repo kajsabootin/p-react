@@ -34,9 +34,8 @@ const Title = styled.h3`
   width: fit-content;
   margin: 0 auto 20px;
   padding: 2px 6px;
-  color: #fff;
-  background: #ff4f70;
+  color: #ff4f70;
   @media (min-width: 1024px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;

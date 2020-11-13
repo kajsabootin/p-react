@@ -5,7 +5,6 @@ import { TechBox } from "components/tech/TechBox";
 export const Tech = () => {
   const skills = [
     "CSS",
-    "SASS",
     "CSS animations",
     "CSS-in-JS",
     "Styled-components",
@@ -26,11 +25,14 @@ export const Tech = () => {
 
   const skillsOther = [
     "Git",
+    "Git Flow",
     "Mob programming",
     "Pair programming",
     "Agile workflow",
     "Web Accessibly",
-    "Azure"
+    "Azure",
+    "Sourcetree",
+    "React Native Debugger"
   ];
 
   return (
@@ -62,7 +64,7 @@ const Main = styled.section`
   flex-direction: column;
   justify-content: space-between;
   padding: 0 10px;
-  min-height: 70vh;
+  min-height: 60vh;
   background: #fff;
   @media (min-width: 668px) {
     padding: 20px 40px;
@@ -79,9 +81,8 @@ const Title = styled.h3`
   width: fit-content;
   margin: 0 auto 20px;
   padding: 2px 6px;
-  color: #fff;
-  background: #ff4f70;
+  color: #ff4f70;
   @media (min-width: 1024px) {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;

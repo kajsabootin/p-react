@@ -3,8 +3,11 @@ import styled from "styled-components";
 
 export const CodeSnippet = () => {
   return (
-    <>
-      <Terminal>              
+      <Terminal>
+        <Dif>
+        Name: Kajsa
+        </Dif>
+        <br />         
         <Dif>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -14,7 +17,6 @@ export const CodeSnippet = () => {
         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </Dif>
       </Terminal>
-    </>
   )
 }
 
